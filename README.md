@@ -2,6 +2,7 @@
 
 🚀 **Puzzle-Numbers Web Game** is a **fun and interactive number puzzle game** that challenges players with **logic-based mathematical puzzles**. Players must **arrange numbers, solve equations, or match sequences** to progress through increasingly complex levels. This game is designed for **brain training, problem-solving, and numerical reasoning**. 🎮  
 
+[![Test Online](https://img.shields.io/badge/Test%20Online-Click%20Here-brightgreen?style=for-the-badge)](https://bocaletto-luca.github.io/Puzzle-Numbers/)
 ---
 
 ## 🏆 Features  
