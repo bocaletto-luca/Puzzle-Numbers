@@ -1,0 +1,150 @@
+ /* Reset styles */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header, footer {
+      background: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+    /* Tabs Navigation */
+    .tabs {
+      display: flex;
+      border-bottom: 2px solid #007BFF;
+      margin-bottom: 20px;
+    }
+    .tabs button {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      background: none;
+      border-bottom: 4px solid transparent;
+      cursor: pointer;
+      font-size: 1rem;
+      color: #007BFF;
+      transition: all 0.3s;
+    }
+    .tabs button.active {
+      border-bottom-color: #007BFF;
+      font-weight: bold;
+    }
+    .tabcontent {
+      display: none;
+    }
+    .tabcontent.active {
+      display: block;
+    }
+    /* Game Control Panel */
+    .game-controls {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .game-controls input, .game-controls select {
+      padding: 5px;
+      margin: 0 10px;
+      font-size: 1rem;
+    }
+    .game-controls button {
+      padding: 7px 15px;
+      background: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 0 5px;
+      transition: background 0.3s;
+    }
+    .game-controls button:hover {
+      background: #0056b3;
+    }
+    .status {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+    /* Board Display */
+    #boardContainer {
+      margin: 0 auto;
+      width: 320px; /* for 4x4, each tile 75px + gap */
+      display: grid;
+      gap: 5px;
+      justify-content: center;
+    }
+    /* We'll dynamically set grid-template-columns based on board size */
+    .tile {
+      background: #007BFF;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.3s;
+    }
+    .tile.empty {
+      background: #ccc;
+      cursor: default;
+    }
+    .tile.correct {
+      background: green;
+    }
+    .tile.wrong {
+      background: red;
+    }
+    /* Records Table */
+    #recordsTable {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    #recordsTable th, #recordsTable td {
+      border: 1px solid #007BFF;
+      padding: 8px;
+      text-align: center;
+    }
+    #recordsTable th {
+      background: #007BFF;
+      color: white;
+    }
+    #recordsArea {
+      max-height: 400px;
+      overflow-y: auto;
+      margin-top: 10px;
+    }
+    .btn-clear {
+      padding: 7px 15px;
+      background: #e74c3c;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+    .btn-clear:hover {
+      background: #c0392b;
+    }
+    footer {
+      margin-top: 20px;
+      box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    }
