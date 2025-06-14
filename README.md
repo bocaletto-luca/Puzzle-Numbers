@@ -1,4 +1,5 @@
 # 🔢 Puzzle-Numbers | Web Game  
+#### Author: Bocaletto Luca
 
 🚀 **Puzzle-Numbers Web Game** is a **fun and interactive number puzzle game** that challenges players with **logic-based mathematical puzzles**. Players must **arrange numbers, solve equations, or match sequences** to progress through increasingly complex levels. This game is designed for **brain training, problem-solving, and numerical reasoning**. 🎮  
 
